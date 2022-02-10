@@ -19,6 +19,15 @@ cef.on("game:data:playerStats", (hp, max_hp, arm, breath, wanted, weapon, ammo, 
     }
 });
 
+function zero_first_format(value)
+{
+    if (value < 10)
+    {
+        value='0'+value;
+    }
+    return value;
+}
+
 //data
 function dates()
 {
