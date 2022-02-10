@@ -4,7 +4,7 @@
     position: absolute;
     right: 50px;
     color: white;
-    font-family: TT Norms;
+    font-family: Comic Sans MS;
     top: 50px;
 }
 
@@ -45,7 +45,6 @@
     height: 24px; 
     top: 10px;
     background: url('arm.png');
-    
     position: relative;
 }
 
@@ -60,7 +59,7 @@ progress.styled
 }
 progress.styled::-webkit-progress-bar
 {
-        background-color: rgb(82, 82, 82);
+        background-color: rgba(0, 0, 0, 0.3);
         border-radius: 8px;
 }
 progress.styled::-webkit-progress-value
@@ -87,18 +86,18 @@ progress.arm
 }
 progress.arm::-webkit-progress-bar
 {
-        background-color: rgb(82, 82, 82);
+        background-color: rgba(0, 0, 0, 0.3);
         border-radius: 8px;
 }
 progress.arm::-webkit-progress-value
 {
-        background-color: #287db3;
-        background-image: linear-gradient(#287db3, #287db3);
+        background-color: rgb(58, 117, 189);
+        background-image: linear-gradient(rgb(58, 117, 189), rgb(58, 117, 189));
         border-radius: 8px;
 }
 progress.arm::-moz-progress-bar
 {
-        background-color: #287db3;
-        background-image: linear-gradient(#287db3, #287db3);
+        background-color: rgb(58, 117, 189);
+        background-image: linear-gradient(rgb(58, 117, 189), rgb(58, 117, 189));
         border-radius: 8px;
 }
