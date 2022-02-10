@@ -1,6 +1,7 @@
 let health = document.getElementById('health');
 let arm = document.getElementById('arm');
 let cash = document.getElementById('cash');
+let data = document.getElementById('data');
 let time = document.getElementById('time');
 
 cef.emit("game:hud:setComponentVisible", "interface", false);
